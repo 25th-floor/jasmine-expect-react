@@ -1,0 +1,30 @@
+{
+  "name": "jasmine-expect-react",
+  "version": "0.1.0",
+  "description": "Jasmine matchers for React",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25th-floor/jasmine-expect-react.git"
+  },
+  "keywords": [
+    "jasmine",
+    "testing",
+    "react"
+  ],
+  "author": "Jan Michael Auer <ja@25th-floor.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/25th-floor/jasmine-expect-react/issues"
+  },
+  "homepage": "https://github.com/25th-floor/jasmine-expect-react#readme",
+  "dependencies": {
+    "jasmine-expect": "^2.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.0"
+  }
+}
