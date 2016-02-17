@@ -1,6 +1,6 @@
 {
   "name": "jasmine-expect-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jasmine matchers for React",
   "main": "src/index.js",
   "scripts": {
