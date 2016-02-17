@@ -1,16 +1,11 @@
-const factory = require('jasmine-expect/src/lib/factory');
+'use strict';
 
-const Component = require('react').Component;
-Component.prototype.jasmineToString = function() {
-	return this.constructor.displayName || this.constructor.name;
-};
+require('./jasmine-to-string');
+const jasmineMatchers = require('jasmine-matchers-loader');
 
 const matchers = {
 
 };
 
-for (var matcherName in matchers) {
-	factory(matcherName, matchers[matcherName]);
-}
-
+jasmineMatchers.add(matchers);
 module.exports = matchers;

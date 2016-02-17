@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/25th-floor/jasmine-expect-react#readme",
   "dependencies": {
-    "jasmine-expect": "^2.0.1"
+    "jasmine-expect": "^2.0.1",
+	"jasmine-matchers-loader": "^0.1.0"
   },
   "peerDependencies": {
     "react": ">=0.14.0"
